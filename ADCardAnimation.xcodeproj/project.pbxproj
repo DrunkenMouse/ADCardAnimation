@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16AFC7CA1E8B44F30086FD30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFC7C91E8B44F30086FD30 /* main.m */; };
+		16AFC7CD1E8B44F30086FD30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFC7CC1E8B44F30086FD30 /* AppDelegate.m */; };
+		16AFC7D01E8B44F30086FD30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFC7CF1E8B44F30086FD30 /* ViewController.m */; };
+		16AFC7D31E8B44F30086FD30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16AFC7D11E8B44F30086FD30 /* Main.storyboard */; };
+		16AFC7D51E8B44F30086FD30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16AFC7D41E8B44F30086FD30 /* Assets.xcassets */; };
+		16AFC7D81E8B44F30086FD30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16AFC7D61E8B44F30086FD30 /* LaunchScreen.storyboard */; };
+		16AFC7E31E8B44F40086FD30 /* ADCardAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFC7E21E8B44F40086FD30 /* ADCardAnimationTests.m */; };
+		16AFC7EE1E8B44F40086FD30 /* ADCardAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFC7ED1E8B44F40086FD30 /* ADCardAnimationUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16AFC7DF1E8B44F40086FD30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16AFC7BD1E8B44F30086FD30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16AFC7C41E8B44F30086FD30;
+			remoteInfo = ADCardAnimation;
+		};
+		16AFC7EA1E8B44F40086FD30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16AFC7BD1E8B44F30086FD30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16AFC7C41E8B44F30086FD30;
+			remoteInfo = ADCardAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16AFC7C51E8B44F30086FD30 /* ADCardAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADCardAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16AFC7C91E8B44F30086FD30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16AFC7CB1E8B44F30086FD30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16AFC7CC1E8B44F30086FD30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16AFC7CE1E8B44F30086FD30 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		16AFC7CF1E8B44F30086FD30 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		16AFC7D21E8B44F30086FD30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16AFC7D41E8B44F30086FD30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16AFC7D71E8B44F30086FD30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16AFC7D91E8B44F30086FD30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16AFC7DE1E8B44F40086FD30 /* ADCardAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADCardAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16AFC7E21E8B44F40086FD30 /* ADCardAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADCardAnimationTests.m; sourceTree = "<group>"; };
+		16AFC7E41E8B44F40086FD30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16AFC7E91E8B44F40086FD30 /* ADCardAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADCardAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16AFC7ED1E8B44F40086FD30 /* ADCardAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADCardAnimationUITests.m; sourceTree = "<group>"; };
+		16AFC7EF1E8B44F40086FD30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16AFC7C21E8B44F30086FD30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16AFC7DB1E8B44F40086FD30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16AFC7E61E8B44F40086FD30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16AFC7BC1E8B44F30086FD30 = {
+			isa = PBXGroup;
+			children = (
+				16AFC7C71E8B44F30086FD30 /* ADCardAnimation */,
+				16AFC7E11E8B44F40086FD30 /* ADCardAnimationTests */,
+				16AFC7EC1E8B44F40086FD30 /* ADCardAnimationUITests */,
+				16AFC7C61E8B44F30086FD30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16AFC7C61E8B44F30086FD30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16AFC7C51E8B44F30086FD30 /* ADCardAnimation.app */,
+				16AFC7DE1E8B44F40086FD30 /* ADCardAnimationTests.xctest */,
+				16AFC7E91E8B44F40086FD30 /* ADCardAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16AFC7C71E8B44F30086FD30 /* ADCardAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				16AFC7CB1E8B44F30086FD30 /* AppDelegate.h */,
+				16AFC7CC1E8B44F30086FD30 /* AppDelegate.m */,
+				16AFC7CE1E8B44F30086FD30 /* ViewController.h */,
+				16AFC7CF1E8B44F30086FD30 /* ViewController.m */,
+				16AFC7D11E8B44F30086FD30 /* Main.storyboard */,
+				16AFC7D41E8B44F30086FD30 /* Assets.xcassets */,
+				16AFC7D61E8B44F30086FD30 /* LaunchScreen.storyboard */,
+				16AFC7D91E8B44F30086FD30 /* Info.plist */,
+				16AFC7C81E8B44F30086FD30 /* Supporting Files */,
+			);
+			path = ADCardAnimation;
+			sourceTree = "<group>";
+		};
+		16AFC7C81E8B44F30086FD30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16AFC7C91E8B44F30086FD30 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16AFC7E11E8B44F40086FD30 /* ADCardAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				16AFC7E21E8B44F40086FD30 /* ADCardAnimationTests.m */,
+				16AFC7E41E8B44F40086FD30 /* Info.plist */,
+			);
+			path = ADCardAnimationTests;
+			sourceTree = "<group>";
+		};
+		16AFC7EC1E8B44F40086FD30 /* ADCardAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16AFC7ED1E8B44F40086FD30 /* ADCardAnimationUITests.m */,
+				16AFC7EF1E8B44F40086FD30 /* Info.plist */,
+			);
+			path = ADCardAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16AFC7C41E8B44F30086FD30 /* ADCardAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16AFC7F21E8B44F40086FD30 /* Build configuration list for PBXNativeTarget "ADCardAnimation" */;
+			buildPhases = (
+				16AFC7C11E8B44F30086FD30 /* Sources */,
+				16AFC7C21E8B44F30086FD30 /* Frameworks */,
+				16AFC7C31E8B44F30086FD30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADCardAnimation;
+			productName = ADCardAnimation;
+			productReference = 16AFC7C51E8B44F30086FD30 /* ADCardAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16AFC7DD1E8B44F40086FD30 /* ADCardAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16AFC7F51E8B44F40086FD30 /* Build configuration list for PBXNativeTarget "ADCardAnimationTests" */;
+			buildPhases = (
+				16AFC7DA1E8B44F40086FD30 /* Sources */,
+				16AFC7DB1E8B44F40086FD30 /* Frameworks */,
+				16AFC7DC1E8B44F40086FD30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16AFC7E01E8B44F40086FD30 /* PBXTargetDependency */,
+			);
+			name = ADCardAnimationTests;
+			productName = ADCardAnimationTests;
+			productReference = 16AFC7DE1E8B44F40086FD30 /* ADCardAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16AFC7E81E8B44F40086FD30 /* ADCardAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16AFC7F81E8B44F40086FD30 /* Build configuration list for PBXNativeTarget "ADCardAnimationUITests" */;
+			buildPhases = (
+				16AFC7E51E8B44F40086FD30 /* Sources */,
+				16AFC7E61E8B44F40086FD30 /* Frameworks */,
+				16AFC7E71E8B44F40086FD30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16AFC7EB1E8B44F40086FD30 /* PBXTargetDependency */,
+			);
+			name = ADCardAnimationUITests;
+			productName = ADCardAnimationUITests;
+			productReference = 16AFC7E91E8B44F40086FD30 /* ADCardAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16AFC7BD1E8B44F30086FD30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = DrunkenMouse;
+				TargetAttributes = {
+					16AFC7C41E8B44F30086FD30 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					16AFC7DD1E8B44F40086FD30 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 16AFC7C41E8B44F30086FD30;
+					};
+					16AFC7E81E8B44F40086FD30 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 16AFC7C41E8B44F30086FD30;
+					};
+				};
+			};
+			buildConfigurationList = 16AFC7C01E8B44F30086FD30 /* Build configuration list for PBXProject "ADCardAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16AFC7BC1E8B44F30086FD30;
+			productRefGroup = 16AFC7C61E8B44F30086FD30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16AFC7C41E8B44F30086FD30 /* ADCardAnimation */,
+				16AFC7DD1E8B44F40086FD30 /* ADCardAnimationTests */,
+				16AFC7E81E8B44F40086FD30 /* ADCardAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16AFC7C31E8B44F30086FD30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16AFC7D81E8B44F30086FD30 /* LaunchScreen.storyboard in Resources */,
+				16AFC7D51E8B44F30086FD30 /* Assets.xcassets in Resources */,
+				16AFC7D31E8B44F30086FD30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16AFC7DC1E8B44F40086FD30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16AFC7E71E8B44F40086FD30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16AFC7C11E8B44F30086FD30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16AFC7D01E8B44F30086FD30 /* ViewController.m in Sources */,
+				16AFC7CD1E8B44F30086FD30 /* AppDelegate.m in Sources */,
+				16AFC7CA1E8B44F30086FD30 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16AFC7DA1E8B44F40086FD30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16AFC7E31E8B44F40086FD30 /* ADCardAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16AFC7E51E8B44F40086FD30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16AFC7EE1E8B44F40086FD30 /* ADCardAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16AFC7E01E8B44F40086FD30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16AFC7C41E8B44F30086FD30 /* ADCardAnimation */;
+			targetProxy = 16AFC7DF1E8B44F40086FD30 /* PBXContainerItemProxy */;
+		};
+		16AFC7EB1E8B44F40086FD30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16AFC7C41E8B44F30086FD30 /* ADCardAnimation */;
+			targetProxy = 16AFC7EA1E8B44F40086FD30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16AFC7D11E8B44F30086FD30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16AFC7D21E8B44F30086FD30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16AFC7D61E8B44F30086FD30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16AFC7D71E8B44F30086FD30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16AFC7F01E8B44F40086FD30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16AFC7F11E8B44F40086FD30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16AFC7F31E8B44F40086FD30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ADCardAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aodong.ADCardAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		16AFC7F41E8B44F40086FD30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ADCardAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aodong.ADCardAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		16AFC7F61E8B44F40086FD30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ADCardAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aodong.ADCardAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADCardAnimation.app/ADCardAnimation";
+			};
+			name = Debug;
+		};
+		16AFC7F71E8B44F40086FD30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ADCardAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aodong.ADCardAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADCardAnimation.app/ADCardAnimation";
+			};
+			name = Release;
+		};
+		16AFC7F91E8B44F40086FD30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ADCardAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aodong.ADCardAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ADCardAnimation;
+			};
+			name = Debug;
+		};
+		16AFC7FA1E8B44F40086FD30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ADCardAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aodong.ADCardAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ADCardAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16AFC7C01E8B44F30086FD30 /* Build configuration list for PBXProject "ADCardAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16AFC7F01E8B44F40086FD30 /* Debug */,
+				16AFC7F11E8B44F40086FD30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16AFC7F21E8B44F40086FD30 /* Build configuration list for PBXNativeTarget "ADCardAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16AFC7F31E8B44F40086FD30 /* Debug */,
+				16AFC7F41E8B44F40086FD30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16AFC7F51E8B44F40086FD30 /* Build configuration list for PBXNativeTarget "ADCardAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16AFC7F61E8B44F40086FD30 /* Debug */,
+				16AFC7F71E8B44F40086FD30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16AFC7F81E8B44F40086FD30 /* Build configuration list for PBXNativeTarget "ADCardAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16AFC7F91E8B44F40086FD30 /* Debug */,
+				16AFC7FA1E8B44F40086FD30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16AFC7BD1E8B44F30086FD30 /* Project object */;
+}
