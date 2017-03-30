@@ -15,6 +15,9 @@
 		16AFC7D81E8B44F30086FD30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16AFC7D61E8B44F30086FD30 /* LaunchScreen.storyboard */; };
 		16AFC7E31E8B44F40086FD30 /* ADCardAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFC7E21E8B44F40086FD30 /* ADCardAnimationTests.m */; };
 		16AFC7EE1E8B44F40086FD30 /* ADCardAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFC7ED1E8B44F40086FD30 /* ADCardAnimationUITests.m */; };
+		16AFC7FD1E8B460F0086FD30 /* CardLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFC7FC1E8B460F0086FD30 /* CardLayout.m */; };
+		16AFC8001E8B46260086FD30 /* ADCardSelectedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFC7FF1E8B46260086FD30 /* ADCardSelectedLayout.m */; };
+		16AFC8031E8B464A0086FD30 /* ADCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AFC8021E8B464A0086FD30 /* ADCardCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		16AFC7E91E8B44F40086FD30 /* ADCardAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADCardAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16AFC7ED1E8B44F40086FD30 /* ADCardAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADCardAnimationUITests.m; sourceTree = "<group>"; };
 		16AFC7EF1E8B44F40086FD30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16AFC7FB1E8B460F0086FD30 /* CardLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardLayout.h; sourceTree = "<group>"; };
+		16AFC7FC1E8B460F0086FD30 /* CardLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardLayout.m; sourceTree = "<group>"; };
+		16AFC7FE1E8B46260086FD30 /* ADCardSelectedLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCardSelectedLayout.h; sourceTree = "<group>"; };
+		16AFC7FF1E8B46260086FD30 /* ADCardSelectedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCardSelectedLayout.m; sourceTree = "<group>"; };
+		16AFC8011E8B464A0086FD30 /* ADCardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCardCell.h; sourceTree = "<group>"; };
+		16AFC8021E8B464A0086FD30 /* ADCardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCardCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				16AFC7CC1E8B44F30086FD30 /* AppDelegate.m */,
 				16AFC7CE1E8B44F30086FD30 /* ViewController.h */,
 				16AFC7CF1E8B44F30086FD30 /* ViewController.m */,
+				16AFC7FB1E8B460F0086FD30 /* CardLayout.h */,
+				16AFC7FC1E8B460F0086FD30 /* CardLayout.m */,
+				16AFC7FE1E8B46260086FD30 /* ADCardSelectedLayout.h */,
+				16AFC7FF1E8B46260086FD30 /* ADCardSelectedLayout.m */,
+				16AFC8011E8B464A0086FD30 /* ADCardCell.h */,
+				16AFC8021E8B464A0086FD30 /* ADCardCell.m */,
 				16AFC7D11E8B44F30086FD30 /* Main.storyboard */,
 				16AFC7D41E8B44F30086FD30 /* Assets.xcassets */,
 				16AFC7D61E8B44F30086FD30 /* LaunchScreen.storyboard */,
@@ -276,6 +291,9 @@
 				16AFC7D01E8B44F30086FD30 /* ViewController.m in Sources */,
 				16AFC7CD1E8B44F30086FD30 /* AppDelegate.m in Sources */,
 				16AFC7CA1E8B44F30086FD30 /* main.m in Sources */,
+				16AFC8001E8B46260086FD30 /* ADCardSelectedLayout.m in Sources */,
+				16AFC8031E8B464A0086FD30 /* ADCardCell.m in Sources */,
+				16AFC7FD1E8B460F0086FD30 /* CardLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

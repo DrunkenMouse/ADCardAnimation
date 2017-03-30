@@ -7,6 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ADCardSelectedLayout.h"
+#import "ADCardCell.h"
+#import "CardLayout.h"
+
 
 @interface ViewController : UIViewController
 
